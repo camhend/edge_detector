@@ -2,6 +2,8 @@
 
 This is an image preprocessing program that performs edge detection on ppm images. This is a multithreaded program which can be used to perform edge_detection on multiple files in a directory. It also utilizes multiple threads to process each individual images in order to reduce processing time. The number of threads in use can be adjusted. 
 
+![monalisa](https://github.com/user-attachments/assets/a842e178-d066-4237-bfa6-465b48f149f8)
+
 Along with the program itself, I ran some experiments with Bash scripts to test the effect of increasing threads on multiple systems. Here are some interesting results from those experiments, where I show the intuitive result that the benefits of multithreading are best enjoyed when more CPU cores are in use.
 
 
